@@ -19,7 +19,6 @@ let btn7Valid = true;
 let btn8Valid = true;
 let btn9Valid = true;
 
-
 btn1.addEventListener("click", ()=>{
     if (btn1Valid == true) {
         if(who == true) {
@@ -463,7 +462,7 @@ function win() {
 }
 
 btn1.addEventListener("mouseover", ()=>{
-    if(btn1Valid == true) {
+    if(btn1Valid == true && whoWin == "") {
         if(who == true) {
             btn1.textContent = "X"
             btn1.style.color = "#22441450";
@@ -475,13 +474,14 @@ btn1.addEventListener("mouseover", ()=>{
 })
 
 btn1.addEventListener("mouseout", ()=>{
-    if(btn1Valid == true) {
+    if(btn1Valid == true && whoWin == "") {
         btn1.textContent = ""
+        btn1.style.color = "#22441400";
     }
 })
 
 btn2.addEventListener("mouseover", ()=>{
-    if(btn2Valid == true) {
+    if(btn2Valid == true && whoWin == "") {
         if(who == true) {
             btn2.textContent = "X"
             btn2.style.color = "#22441450";
@@ -493,13 +493,14 @@ btn2.addEventListener("mouseover", ()=>{
 })
 
 btn2.addEventListener("mouseout", ()=>{
-    if(btn2Valid == true) {
+    if(btn2Valid == true && whoWin == "") {
         btn2.textContent = ""
+        btn2.style.color = "#22441400";
     }
 })
 
 btn3.addEventListener("mouseover", ()=>{
-    if(btn3Valid == true) {
+    if(btn3Valid == true && whoWin == "") {
         if(who == true) {
             btn3.textContent = "X"
             btn3.style.color = "#22441450";
@@ -511,13 +512,14 @@ btn3.addEventListener("mouseover", ()=>{
 })
 
 btn3.addEventListener("mouseout", ()=>{
-    if(btn3Valid == true) {
+    if(btn3Valid == true && whoWin == "") {
         btn3.textContent = ""
+        btn3.style.color = "#22441400";
     }
 })
 
 btn4.addEventListener("mouseover", ()=>{
-    if(btn4Valid == true) {
+    if(btn4Valid == true && whoWin == "") {
         if(who == true) {
             btn4.textContent = "X"
             btn4.style.color = "#22441450";
@@ -529,13 +531,14 @@ btn4.addEventListener("mouseover", ()=>{
 })
 
 btn4.addEventListener("mouseout", ()=>{
-    if(btn4Valid == true) {
+    if(btn4Valid == true && whoWin == "") {
         btn4.textContent = ""
+        btn4.style.color = "#22441400";
     }
 })
 
 btn5.addEventListener("mouseover", ()=>{
-    if(btn5Valid == true) {
+    if(btn5Valid == true && whoWin == "") {
         if(who == true) {
             btn5.textContent = "X"
             btn5.style.color = "#22441450";
@@ -547,13 +550,14 @@ btn5.addEventListener("mouseover", ()=>{
 })
 
 btn5.addEventListener("mouseout", ()=>{
-    if(btn5Valid == true) {
+    if(btn5Valid == true && whoWin == "") {
         btn5.textContent = ""
+        btn5.style.color = "#22441400";
     }
 })
 
 btn6.addEventListener("mouseover", ()=>{
-    if(btn6Valid == true) {
+    if(btn6Valid == true && whoWin == "") {
         if(who == true) {
             btn6.textContent = "X"
             btn6.style.color = "#22441450";
@@ -565,13 +569,14 @@ btn6.addEventListener("mouseover", ()=>{
 })
 
 btn6.addEventListener("mouseout", ()=>{
-    if(btn6Valid == true) {
+    if(btn6Valid == true && whoWin == "") {
         btn6.textContent = ""
+        btn6.style.color = "#22441400";
     }
 })
 
 btn7.addEventListener("mouseover", ()=>{
-    if(btn7Valid == true) {
+    if(btn7Valid == true && whoWin == "") {
         if(who == true) {
             btn7.textContent = "X"
             btn7.style.color = "#22441450";
@@ -583,13 +588,14 @@ btn7.addEventListener("mouseover", ()=>{
 })
 
 btn7.addEventListener("mouseout", ()=>{
-    if(btn7Valid == true) {
+    if(btn7Valid == true && whoWin == "") {
         btn7.textContent = ""
+        btn7.style.color = "#22441400";
     }
 })
 
 btn8.addEventListener("mouseover", ()=>{
-    if(btn8Valid == true) {
+    if(btn8Valid == true && whoWin == "") {
         if(who == true) {
             btn8.textContent = "X"
             btn8.style.color = "#22441450";
@@ -601,13 +607,14 @@ btn8.addEventListener("mouseover", ()=>{
 })
 
 btn8.addEventListener("mouseout", ()=>{
-    if(btn8Valid == true) {
+    if(btn8Valid == true && whoWin == "") {
         btn8.textContent = ""
+        btn8.style.color = "#22441400";
     }
 })
 
 btn9.addEventListener("mouseover", ()=>{
-    if(btn9Valid == true) {
+    if(btn9Valid == true && whoWin == "") {
         if(who == true) {
             btn9.textContent = "X"
             btn9.style.color = "#22441450";
@@ -619,7 +626,8 @@ btn9.addEventListener("mouseover", ()=>{
 })
 
 btn9.addEventListener("mouseout", ()=>{
-    if(btn9Valid == true) {
+    if(btn9Valid == true && whoWin == "") {
         btn9.textContent = ""
+        btn9.style.color = "#22441400";
     }
 })
